@@ -17,6 +17,7 @@ calculate_total() {
 
 
 while true; do
+    
     read -p "Introduce el nombre de la ciudad: " city
     calculate_total "$city"
     if [[ -f "$city.txt" ]]; then
